@@ -1,16 +1,23 @@
 <?php
 	
 	// Define a Constant
-	
+	define("TITLE","Variable and Constants");
 	
 	// Your Variables
+	$my_name = "Syahirah";
+	$fav_color = "Purple";
+	$birth_year = 1989;
 	
-	
+	$today = ('F j,Y');
+	$this_year = ('Y');
+
 	/*
 	Use PHP to calculate the difference
 	between your birth year and this year
 	to show your age dynamically
 	*/
+
+	$my_age = ($this_year - $birth_year);
 
 	
 ?>
