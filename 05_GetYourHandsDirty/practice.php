@@ -8,8 +8,8 @@
 	$fav_color = "Purple";
 	$birth_year = 1989;
 	
-	$today = ('F j,Y');
-	$this_year = ('Y');
+	$today = date("F j,Y");
+	$this_year = date("Y");
 
 	/*
 	Use PHP to calculate the difference
